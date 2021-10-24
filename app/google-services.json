@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "535996644413",
+    "project_id": "kelvin-ff77c",
+    "storage_bucket": "kelvin-ff77c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535996644413:android:aac275149ad9bdd2dffe54",
+        "android_client_info": {
+          "package_name": "com.ener.kelvin11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535996644413-erabpb0m0svrjh765girfq0rgua0r7o0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJWVyQQoUQcvoZT1WQmy4jvJJVMapwrLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535996644413-erabpb0m0svrjh765girfq0rgua0r7o0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

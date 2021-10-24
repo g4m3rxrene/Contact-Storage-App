@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/title2">
+
+    <fragment
+        android:id="@+id/title2"
+        android:name="com.ener.kelvin11.title.Title"
+        android:label="title_fragment"
+        tools:layout="@layout/title_fragment" >
+        <action
+            android:id="@+id/action_title2_to_signIn"
+            app:destination="@id/signIn"
+            app:popUpTo="@id/title2" />
+        <action
+            android:id="@+id/action_title2_to_signUp"
+            app:destination="@id/signUp"
+            app:popUpTo="@id/title2" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.ener.kelvin11.signup.SignUp"
+        android:label="sign_up_fragment"
+        tools:layout="@layout/sign_up_fragment" >
+        <action
+            android:id="@+id/action_signUp_to_signIn"
+            app:destination="@id/signIn"
+            app:popUpTo="@id/title2" />
+    </fragment>
+    <fragment
+        android:id="@+id/signIn"
+        android:name="com.ener.kelvin11.signin.SignIn"
+        android:label="sign_in_fragment"
+        tools:layout="@layout/sign_in_fragment" />
+</navigation>

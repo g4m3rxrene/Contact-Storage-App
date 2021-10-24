@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ContactsFrag"
+        android:icon="@drawable/ic_contact"
+        android:title="" />
+    <item
+        android:id="@+id/addContactFrag"
+        android:icon="@drawable/ic_add"
+        android:title="" />
+    <item
+        android:id="@+id/SearchFrag"
+        android:icon="@drawable/ic_search"
+        android:title="" />
+
+
+
+</menu>
